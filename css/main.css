@@ -194,3 +194,42 @@ input[type=text] {
 	border-top: 3px #ff7673 solid;
 	background-color: #037f99;
 }
+
+@media
+(min-width: 320px) and (max-width: 479px){
+
+	.container{
+		width: 100%;
+	}
+
+
+	.soft{
+		width: 100%;
+		font-size: 40px;
+	}
+
+
+	form {
+		display: none;
+	}
+	.conejo2
+	{
+		display: none;
+	}
+	.subsection2{
+		display: none;
+
+	}
+	.conejo3{
+		display: none;
+	}
+	.text1{
+		font-size: 12px;
+
+	}
+	.txt{
+		font-size: 12px;
+	}
+
+    }
+
