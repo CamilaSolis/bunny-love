@@ -20,6 +20,26 @@ body{
 }
 /*completa grid*/
 /*Aqui empieza el header*/
+/*prueba de icono*/
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+ul.topnav li.icon {display: none;}
+/*prueba de icono*/
 .menu{
 	background-color: #037f99;
 }
@@ -124,10 +144,10 @@ body{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 300px;
+	height: 350px;
 }
 .subsection1{
-	background-color: white;
+	background-color: #ecf7fb;
 	padding: 10px;
 	font-size: 16px;
 	line-height: 150%;
@@ -146,6 +166,20 @@ body{
 	padding-bottom: 20px;
 	margin:0;
 }
+.subsection2 p{
+	font-size:20px;
+	color: #ff7673; 
+	font-family: "Baloo Paaji";
+	text-align: center;
+	padding: 10px 0;
+	margin:0;
+}
+.subsection2{
+	font-size: 15px;
+	padding: 20px 15px;
+	margin:0;
+	background-color: #ecf7fb;
+}
 /*Aqui empieza la seccion de la derecha*/
 input[type=text] {
     width: 100%;
@@ -159,7 +193,7 @@ input[type=text] {
 .conejo2{
 	background-image: url(../img/img-6.jpg);
 	background-size: 100%;
-	height: 300px;
+	height: 280px;
 	background-repeat: no-repeat;
 	margin-top:10px;
 }
@@ -176,7 +210,7 @@ input[type=text] {
 .conejo3{
 	background-image: url(../img/img-3.jpg);
 	background-size: 100%;
-	height: 300px;
+	height: 250px;
 	background-repeat: no-repeat;
 	margin-top:20px;
 	margin-bottom: 0;
@@ -194,20 +228,37 @@ input[type=text] {
 	border-top: 3px #ff7673 solid;
 	background-color: #037f99;
 }
+h1, p{
+	margin:0;
+}
+form{
+	background-color: #ecf7fb;	
+}
 
 @media
 (min-width: 320px) and (max-width: 479px){
 
+	.bunny, .love{
+		font-size: 20px;
+	}
+	.bunny{
+		margin-left: 10px;
+	}
 	.container{
 		width: 100%;
 	}
-
-
 	.soft{
 		width: 100%;
-		font-size: 40px;
+		font-size: 50px;
+		padding: 20px 0 10px 0;
 	}
-
+	.titlesoft{
+		width: 90%;
+		margin-bottom: 20px;
+	}
+	.sub2{
+	padding: 10px 0;
+	}
 
 	form {
 		display: none;
@@ -224,12 +275,41 @@ input[type=text] {
 		display: none;
 	}
 	.text1{
-		font-size: 12px;
-
+		font-size: 15px;
+		height: auto;
+		padding-bottom: 40px;
 	}
-	.txt{
-		font-size: 12px;
+	.txt, .subsection1{
+		font-size: 15px;
+		margin:0;
 	}
+	.text h1{
+		font-size: 15px;
+	}
+	.rabbit1, .rabbit2, .rabbit3, .rabbit4, .conejo1, .conejo2{
+		height: 220px;
+	}
+	.foot1{
+		background-size: 150px;
+		height: 80px;
+	}
+	iframe{
+		height: 200px;
+	}
+	  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
 
     }
 
